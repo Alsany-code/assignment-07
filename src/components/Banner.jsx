@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.css'; // We'll put the pseudo-element CSS here
+import './Banner.css';
 
 const Banner = ({ inProgressCount, resolvedCount }) => {
   const baseCardClasses =

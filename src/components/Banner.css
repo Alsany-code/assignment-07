@@ -1,0 +1,20 @@
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background: url('/vector1.png') no-repeat center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.card::before {
+    left: 0;
+}
+
+.card::after {
+    right: 0;
+    transform: scaleX(-1);
+}
